@@ -5,3 +5,19 @@
 
 
 
+let userRandomNumber = Math.floor(Math.random() *6 + 1);
+console.log(userRandomNumber);
+
+let computerRandomNumber = Math.floor(Math.random() *6 + 1);
+console.log(computerRandomNumber);
+
+
+if ((userRandomNumber.value) > (computerRandomNumber.value)) {
+    alert("HAI VINTO TU!");
+} else if ((userRandomNumber.value) < (computerRandomNumber.value)) {
+    alert("HO VINTO IO!");
+} else {
+    alert("PAREGGIO");
+}
+
+
