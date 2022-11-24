@@ -12,9 +12,9 @@ let computerRandomNumber = Math.floor(Math.random() *6 + 1);
 console.log(computerRandomNumber);
 
 
-if ((userRandomNumber.value) > (computerRandomNumber.value)) {
+if ((userRandomNumber) > (computerRandomNumber)) {
     alert("HAI VINTO TU!");
-} else if ((userRandomNumber.value) < (computerRandomNumber.value)) {
+} else if ((userRandomNumber) < (computerRandomNumber)) {
     alert("HO VINTO IO!");
 } else {
     alert("PAREGGIO");
