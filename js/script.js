@@ -42,3 +42,26 @@ const emailList = [
 
 const button = document.getElementById("bottone");
 
+button.addEventListener("click", function () {
+
+    const userEmail = document.getElementById("verifica-email").value;
+
+    let find = false;
+
+    for (let i = 0; i < emailList.length; i++) {
+        if (userEmail == emailList[i]) {
+            find = true;
+        }   
+    }
+    console.log(find);
+
+    if (find) {
+        alert("Utente verificato!")
+    } else {
+        alert("Utente non abilitato!")
+    }
+
+})
+
+
+
